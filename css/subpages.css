@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Spartan", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  margin: 0px;
+}
+
+/* Contact Us Page CSS*/
+.abodetails {
+  margin: 200px 100px 0;
+  padding: 10px;
+  text-align: center;
+  align-content: center;
+}
+.abodetails h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.abodetails h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.abodetails p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+.aboimg img {
+  width: 300px;
+  border: 1px solid;
+}
+
+/* Contact Us Page CSS*/
+#country {
+  text-transform: uppercase;
+}
+
+.form-container {
+  border: 1px solid black;
+  margin: 1px 100px;
+  padding: 30px 75px;
+}
+
+.form-container form .user-details {
+  justify-content: space-between;
+}
+form .user-details .input-box {
+  width: calc(100% / 2 -20px);
+}
+.user-details .input-box input {
+  position: relative;
+  height: 30px;
+  padding: 0 10px;
+}
+.colum {
+  display: flex;
+  column-gap: 15px;
+}
+.user-details .details {
+  font-weight: bold;
+}
+
+.req-star {
+  color: red;
+}
+.submit-btn {
+  background-color: #007bff;
+  font-size: 14px;;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
