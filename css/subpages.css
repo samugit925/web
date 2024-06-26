@@ -134,16 +134,13 @@ form .user-details .input-box {
   border-bottom-width: 2px;
 }
 .btn-container{
-  
-  background-color: #894141;
 }
 .submit-btn {
   width: 100px;
   height: 40px;
-  margin: 30px;
-  padding: auto;
   font-size: 1em;
   font-weight: 400;
-  background-color: #62529c;
+  background-color: #0c64e9;
+  border-radius: 10px;
   color: white;
 }

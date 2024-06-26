@@ -69,7 +69,7 @@ section {
 .main-home {
   width: 100%;
   height: 100vh;
-  background-image: url(/Web_Application_Final-_Project_Group-R/Images/homegem.jpg);
+  background-image: url(/Images/homegem.jpg);
   background-position: center;
   background-size: cover;
   display: grid;
@@ -89,8 +89,9 @@ section {
   font-size: 50px;
   font-family: serif;
 }
+
 .section2 {
-  background-color: rgb(235, 233, 232);
+  background-color: rgb(255, 255, 255);
 }
 .features {
   display: flex;
@@ -104,43 +105,51 @@ section {
   font-size: 40px;
   margin-bottom: 0.5rem;
 }
-
+/*Gems Section - 1*/
 .section3 {
-  background-color: #d5c8c8;
+  background-color: #f0e9e9;
+  
 }
 .section3 h3 {
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
+  font-size: 2rem;
 }
 .section3 p {
-  padding-bottom: 30px;
+  padding-bottom: 2rem;
+  font-size: 1rem;
 }
-.gemstone-container {
-  width: 100%;
+.section3 .gemstone-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1px;
-  background-color: #ede8e8;
 }
-.gemstone-item {
-  width: 100%;
+
+.section3 .gemstone-container .gemstone-item{
   text-align: center;
+  border:1px solid rgba(0, 0, 0, 0.138);
+  background-color: rgb(236, 236, 236);
 }
-.gemstone-item p {
-  width: auto;
-  height: 60px;
+.section3 .gemstone-container .gemstone-item img{
+  width: 100%;
+  height: 75%;
+  cursor: pointer;
+}
+.section3 .gemstone-container .gemstone-item h5,a{
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
 }
 
-.gemstone-item img {
-  width: 300px;
-  height: 300px;
+.section3 .gemstone-container .gemstone-item h3{
+  color: black;
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
-.gemstone-item p {
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 30px;
-  font-style: normal;
-}
 
 /*Review Section CSS*/
 .section4{
@@ -155,7 +164,7 @@ section {
 }
 
 .heading span{
-  color:rgb(187, 187, 181);
+  color:rgb(221, 208, 140);
   text-transform: uppercase;
 }
 .review .box-container{
@@ -200,9 +209,6 @@ section {
   color:white;
 }
 /*5th Section CSS*/
-.section5{
-  background-color: chartreuse;
-}
 
 /*Footer Section CSS*/
 footer{
