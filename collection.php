@@ -31,13 +31,13 @@
 
             <div>
                 <ul class="navmenu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="information.html">Information</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="shop.php">Shop</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="events.php">Events</a></li>
+                    <li><a href="information.php">Information</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -52,11 +52,9 @@
     </header>
     <!--===Header Section Close===-->
 
-
-
-
-
     
+
+
 
     <!--===Footer Section Start===-->
     <footer class="footer">

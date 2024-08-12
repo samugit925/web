@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,6 +25,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
 
+    <!-- javascript Links -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "YIcsN-UvNnWBWpHHY",
+            });
+        })();
+    </script>
 </head>
 
 <body>
@@ -33,13 +47,13 @@
 
             <div>
                 <ul class="navmenu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="information.html">Information</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="shop.php">Shop</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="events.php">Events</a></li>
+                    <li><a href="information.php">Information</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -53,7 +67,7 @@
         </nav>
     </header>
     <!--===Header Section Close===-->
-    
+
     <div class="abodetails">
         <h2>Get Answers to all your <br>questions you might have</h2>
         <h3>We will answer any questions you may have about our online sales right here. We love to hear from you.</h3>
@@ -77,14 +91,14 @@
                         <div class="input-box box-2">
                             <span class="details">Full Name</span>
                             <span class="req-star">*</span>
-                            <input type="text" placeholder="Enter your full name" required>
+                            <input type="text" id="fullName" placeholder="Enter your full name" required>
                         </div>
                     </div>
                     <div class="grid-item item2">
                         <div class="input-box box-1">
                             <span class="details">Email</span>
                             <span class="req-star">*</span>
-                            <input type="text" placeholder="Enter your email" required>
+                            <input type="email" id="email" placeholder="Enter your email" required>
                         </div>
                         <div class="input-box box">
                             <span class="details">Country</span>
@@ -182,11 +196,11 @@
                     </div>
                     <div class="grid-item item5">
                         <div class="input-box box-1">
-                            <textarea name="message" placeholder="Your Message" class="message"></textarea>
+                            <textarea name="message" placeholder="Your Message" class="message" id="message"></textarea>
                         </div>
                     </div>
                     <div class="btn-container">
-                        <button class="submit-btn" type="submit">Submit</button>
+                        <button class="submit-btn" type="submit" onclick="sendMail()">Submit</button>
                     </div>
                 </div>
             </form>
@@ -264,6 +278,10 @@
     <div class="copyright-text">
         <p>Copyright 2024 &copy; ROYAL GEMSTONE PARADICE (PVT) LTD</p>
     </div>
+
+    <script>
+
+    </script>
 </body>
 
 </html>

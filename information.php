@@ -33,13 +33,13 @@
 
             <div>
                 <ul class="navmenu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="information.html">Information</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="shop.php">Shop</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="events.php">Events</a></li>
+                    <li><a href="information.php">Information</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -54,52 +54,79 @@
     </header>
     <!--===Header Section Close===-->
 
-    <div class="abodetails">
-        <h2>About Gems in Sri Lanka</h2>
-        <h3>With more than 30 years of experience in Gem business, we being most trustworthy genuine Gemstones Dealers,
-            Importers, Exporters, Wholesalers and Online Sellers in Sri Lanka.</h3><br><br>
-        <p>www.gemsinsrilanka.com Manage by BLUE MOON GEM AND JEWEL (PVT) LTD.
-            Our mission is to simplify the tedious task of sourcing gemstones by providing quality products with
-            impeccable customer service.
-            Blue Moon Jewellers is a reputed company in Sri Lanka since 1989.
-            It is a well known company among worldwide gem dealers, which was registered under National Gem and
-            Jewellery Authority of Sri Lanka.
-            <br><br>
-            The specialist of Blue Moon gems are they come directly to our company from mines and both cut and polish
-            are done by our company itself. And all the gems are legal and every each gem contains a laboratory
-            authorized certificate. All the gems are natural and the speciality of Blue Moon Jewellery is all jewels are
-            handmade and each every jewellery is unique. These jewels are made from natural stones and outlines in
-            silver 10k, 14k, 18k, white, yellow or rose gold and platinum.
-            <br><br>
-        </p>
-        <div class="aboimg">
-            <img src="Images\PINK SAPPHIRE.jpg">
-            <img src="Images\PINK SAPPHIRE.jpg">
-            <img src="Images\PINK SAPPHIRE.jpg">
-            <img src="Images\PINK SAPPHIRE.jpg">
+    <div class="info-container">
+        <div class="information sec1">
+            <div class="inf-img">
+                <img src="Images/info-img1.png">
+            </div>
+            <div class="inf-list">
+                <h2>INTERNATIONAL DELIVERY</h2>
+                <ul>
+                    <li>All the gemstones are shipped from Sri Lanka by EMS Postal Express Service.</li>
+                    <li>All Gemstones are Worldwide shipped by <b>FREE OF CHARGE</b> from Sri Lanka.</li>
+                    <li>We ship all the items within 24 hours of the full payment.</li>
+                    <li>A tracking number will be given you to track the shipment.</li>
+                    <li>The shipment will be delivered within 14 – 20 days.</li>
+                    <li>If you need your Gemstone quickly within 2 - 7 days, we can send it through FedEx, but it will
+                        cost extra $ 100.</li>
+                </ul>
+                <h3>Payment Method</h3>
+                <ul>
+                    <li>Bank Deposit (usually the cheapest and Secure)</li>
+                </ul>
+            </div>
         </div>
-        <br><br>
-        <p>
-            We sell natural precious & semi-precious gemstones only.
-            Our gemstones give very high energy for astrological uses.
-            Our all gemstones are certified by govt. of Sri Lanka’s recognized gem testing laboratory.
-            We also provide the lab’s original testing certificate to buyer with purchased stone(s).
-            Our buyer can check certification details (with gemstone dimensions & photograph) on testing laboratory’s
-            website from worldwide.
-            <br><br>
-            Most of the Gem stones in the market are treated for Color & Clarity Enhancement to improve their outer
-            appearance & thus higher market Price.
-            That’s when the need & lookout for genuine Gem Supplier starts and that’s where “BLUE MOON GEM AND JEWEL”
-            stands out.
-            we have Mine to Market supply system which means that we directly buy from mines & sell to the end customer.
-            So, there are no middle men and thus the customer gets gemstones at lowest Price. We also have in house
-            International standard Gem Testing Laboratory.
-            So, you can consult our Gem Experts/Gemologist about Gem stones. We will guide you to choose the best
-            suitable gemstone within your budget.
-            <br><br>
-        </p>
+        <hr>
+        <div class="information sec2">
+            <div class="inf-list">
+                <h2>LOCAL DELIVERY</h2>
+                <ul>
+                    <li>You can collect your Gemstone at our showroom & workshop at Galle. In there, you can visit (FREE OF CHARGE) our workshop and can see how to cut & polish gemstones as well as making jewelries.</li>
+                    <li>You can collect your Gemstone at our Meeting Point at Colombo.</b> from Sri Lanka.</li>
+                    <li>If you stay at a hotel in and around Colombo, Galle, Bentota, Hikkaduwa, we can deliver your Gemstone to your Hotel for FREE OF CHARGE</li>
+                    <li>We deliver your Gemstone to your doorstep (anywhere in Sri Lanka) for FREE OF CHARGE.</li>
+                </ul>
+                <h3>Payment Method</h3>
+                <ul>
+                    <li>Credit/ Debit card payments ( We accept VISA, MASTER, UNION PAY, AMEX, UNIPAY and almost all major credit cards).</li>
+                    <li>Bank Deposit or Bank Transfer</li>
+                </ul>
+            </div>
+            <div class="inf-img">
+                <img src="Images/shipment.png">
+            </div>
+        </div>
+        <hr>
+        <div class="information sec3">
+            <div class="inf-img">
+                <img src="Images/return.png">
+            </div>
+            <div class="inf-list">
+                <h2>RETURNS & REFUNDS</h2>
+                <ul>
+                    <li>If you wish to return item that bought from us, we pleasure to exchange the product with fully resalable condition. The item should be return within 10 days and product in original, undamaged, and packing alone with the invoice. The product hasn’t returned with resalable condition we refuse to exchange. And also if you prefer to exchange product with another you can contact us or email us as soon as possible. For the exchange, product must be in original, undamaged, and packing alone with the invoice.</li>
+                    <li>Also if you wish to exchange or cancel your order, contact us on our hotline.</b> from Sri Lanka.</li>
+                    <li>Delivery charge for return and exchange will be informed by an email or directly to your phone.</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="information sec4">
+            <div class="inf-list">
+                <h2>AUTHORIZED CERTIFICATES</h2>
+                <ul>
+                    <li>We Provide GIA Authorized Laboratory Certificate with All Our Gemstones.</li>
+                    <li>The certificate is documented with the data obtained to the best of means using the techniques and equipment available at the time.</li>    
+                    <li>Certificate, cards and books sending up to customer request.</li>
+                    <li>All the certificate, cards and books are certified by a standard laboratory.</li>
+                </ul>
+            </div>
+            <div class="inf-img">
+                <img src="Images/achievement.png">
+            </div>
+        </div>
     </div>
-    
+
     <!--===Footer Section Start===-->
     <footer class="footer">
         <div class="container">
@@ -172,4 +199,5 @@
         <p>Copyright 2024 &copy; ROYAL GEMSTONE PARADICE (PVT) LTD</p>
     </div>
 </body>
+
 </html>
