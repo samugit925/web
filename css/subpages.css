@@ -15,7 +15,7 @@ body {
 .abodetails {
   margin: 150px 100px 0;
   padding: 10px;
-  align-content: center;
+  align-items: center;
 }
 .abodetails h2 {
   font-size: 50px;
@@ -35,6 +35,9 @@ body {
   line-height: 1.5;
 }
 /* About Us Page CSS*/
+.aboimg{
+  align-items: center;
+}
 .aboimg img {
   width: 300px;
   border: 1px solid;
