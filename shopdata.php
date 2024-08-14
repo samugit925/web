@@ -26,20 +26,20 @@
         <div class="product-grid">
             <!-- Example Product Item -->
             <div class="product-item">
-                <img src="https://images.unsplash.com/photo-1582064087391-118a9cf59bb6" alt="Blue Sapphire">
+                <img src="https://picsum.photos/300/300?grayscale" alt="Blue Sapphire">
                 <h2>Blue Sapphire</h2>
                 <p class="price">$2000</p>
                 <button class="btn add-to-cart" data-product="Blue Sapphire" data-price="2000">Add to Cart</button>
             </div>
             <!-- Add more products here -->
             <div class="product-item">
-                <img src="https://images.unsplash.com/photo-1595360892265-fd9d2a4ec660" alt="Ruby">
+                <img src="https://picsum.photos/300/300?grayscale" alt="Ruby">
                 <h2>Ruby</h2>
                 <p class="price">$1500</p>
                 <button class="btn add-to-cart" data-product="Ruby" data-price="1500">Add to Cart</button>
             </div>
             <div class="product-item">
-                <img src="https://images.unsplash.com/photo-1504382102915-c2e2f6749c14" alt="Emerald">
+                <img src="https://picsum.photos/300/300?grayscale" alt="Emerald">
                 <h2>Emerald</h2>
                 <p class="price">$1800</p>
                 <button class="btn add-to-cart" data-product="Emerald" data-price="1800">Add to Cart</button>
