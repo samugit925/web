@@ -1,23 +1,30 @@
 /* Shop Data Section Styles */
 .shop-data {
     display: flex;
+    flex-wrap: wrap;
     padding: 20px;
+    gap: 20px;
+    background-color: #f4f4f4;
 }
 
 .filter-section {
-    width: 20%;
-    padding: 10px;
-    border-right: 1px solid #ddd;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .filter-section h2 {
     font-size: 1.8em;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: #333;
 }
 
 .filter-list {
     list-style: none;
     padding: 0;
+    margin-bottom: 20px;
 }
 
 .filter-option {
@@ -26,30 +33,52 @@
     text-decoration: none;
     color: #333;
     border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
 }
 
-.filter-option:hover {
-    background-color: #f4f4f4;
-    color: #ff9900;
+.filter-option:hover, .filter-option.active {
+    background-color: #ff9900;
+    color: #fff;
+}
+
+.price-filter {
+    margin-top: 20px;
+}
+
+.price-filter h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.price-filter input[type="range"] {
+    width: 100%;
+}
+
+.price-filter p {
+    font-size: 1.2em;
+    color: #333;
 }
 
 .product-grid {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
-    padding: 0 10px;
 }
 
 .product-item {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    width: calc(33.333% - 20px);
-    text-align: center;
     background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.product-item:hover {
+    transform: scale(1.03);
 }
 
 .product-item img {
@@ -60,13 +89,15 @@
 }
 
 .product-item h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin: 10px 0;
+    color: #333;
 }
 
 .product-item p {
-    font-size: 1.2em;
-    color: #333;
+    font-size: 1.4em;
+    color: #ff9900;
+    margin: 10px 0;
 }
 
 .product-item .btn {
@@ -78,6 +109,7 @@
     text-decoration: none;
     font-weight: bold;
     margin-top: 10px;
+    transition: background-color 0.3s;
 }
 
 .product-item .btn:hover {

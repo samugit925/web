@@ -12,11 +12,16 @@
         <div class="filter-section">
             <h2>Filter by Category</h2>
             <ul class="filter-list">
-                <li><a href="#" class="filter-option">All</a></li>
+                <li><a href="#" class="filter-option active">All</a></li>
                 <li><a href="#" class="filter-option">Precious</a></li>
                 <li><a href="#" class="filter-option">Semi-Precious</a></li>
                 <li><a href="#" class="filter-option">Special Offers</a></li>
             </ul>
+            <div class="price-filter">
+                <h2>Filter by Price</h2>
+                <input type="range" min="0" max="5000" value="2500" id="priceRange">
+                <p>$0 - <span id="priceValue">2500</span></p>
+            </div>
         </div>
         <div class="product-grid">
             <!-- Example Product Item -->
@@ -30,5 +35,14 @@
         </div>
     </section>
     <!--===Shop Data Section End===-->
+
+    <script>
+        // Update price filter value
+        const priceRange = document.getElementById('priceRange');
+        const priceValue = document.getElementById('priceValue');
+        priceRange.addEventListener('input', () => {
+            priceValue.textContent = priceRange.value;
+        });
+    </script>
 </body>
 </html>
