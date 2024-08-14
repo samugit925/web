@@ -54,10 +54,13 @@
             </div>
         </nav>
     </header>
+    <br><br><br><br><br><br><br>
     <!--===Header Section Close===-->
+    <?php require_once 'shopdata.php'; ?>
 
 
-
+    <!--===Shop Section Start===-->
+    
 
     <!--===Footer Section Start===-->
     <footer class="footer">
