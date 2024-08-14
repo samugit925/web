@@ -19,10 +19,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
 </head>
-<?php require_once "../common/header.php"; ?>
 <body>
+<?php require_once "common/header.php"; ?>
+<br><br><br><br><br><br>
 
-
-<?php require_once "../common/footer.php"; ?>
+<?php require_once "common/footer.php"; ?>
 </body>
 </html>

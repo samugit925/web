@@ -26,7 +26,7 @@
         </div>
         <div class="product-grid">
             <!-- Example Product Item -->
-            <a href="shop/itemdetails.php">
+            <a href="itemdetails.php">
             <div class="product-item">
                 <img src="https://picsum.photos/300/300?grayscale" alt="Blue Sapphire">
                 <h2>Blue Sapphire</h2>
@@ -35,7 +35,7 @@
             </div>
             </a>
             <!-- Add more products here -->
-            <a href="shop/itemdetails.php">
+            <a href="itemdetails.php">
             <div class="product-item">
                 <img src="https://picsum.photos/300/300?grayscale" alt="Ruby">
                 <h2>Ruby</h2>
@@ -43,7 +43,7 @@
                 <button class="btn add-to-cart" data-product="Ruby" data-price="1500">Add to Cart</button>
             </div>
             </a>
-            <a href="shop/itemdetails.php">
+            <a href="itemdetails.php">
             <div class="product-item">
                 <img src="https://picsum.photos/300/300?grayscale" alt="Emerald">
                 <h2>Emerald</h2>
