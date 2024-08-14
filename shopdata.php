@@ -8,6 +8,7 @@
 </head>
 <body>
     <!--===Shop Data Section Start===-->
+    
     <section class="shop-data">
         <div class="filter-section">
             <h2>Filter by Category</h2>
@@ -25,25 +26,31 @@
         </div>
         <div class="product-grid">
             <!-- Example Product Item -->
+            <a href="shop/itemdetails.php">
             <div class="product-item">
                 <img src="https://picsum.photos/300/300?grayscale" alt="Blue Sapphire">
                 <h2>Blue Sapphire</h2>
                 <p class="price">$2000</p>
                 <button class="btn add-to-cart" data-product="Blue Sapphire" data-price="2000">Add to Cart</button>
             </div>
+            </a>
             <!-- Add more products here -->
+            <a href="shop/itemdetails.php">
             <div class="product-item">
                 <img src="https://picsum.photos/300/300?grayscale" alt="Ruby">
                 <h2>Ruby</h2>
                 <p class="price">$1500</p>
                 <button class="btn add-to-cart" data-product="Ruby" data-price="1500">Add to Cart</button>
             </div>
+            </a>
+            <a href="shop/itemdetails.php">
             <div class="product-item">
                 <img src="https://picsum.photos/300/300?grayscale" alt="Emerald">
                 <h2>Emerald</h2>
                 <p class="price">$1800</p>
                 <button class="btn add-to-cart" data-product="Emerald" data-price="1800">Add to Cart</button>
             </div>
+            </a>
         </div>
     </section>
     <!--===Shop Data Section End===-->
