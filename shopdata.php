@@ -26,15 +26,36 @@
         <div class="product-grid">
             <!-- Example Product Item -->
             <div class="product-item">
-                <img src="Images/product1.jpg" alt="Blue Sapphire">
+                <img src="https://images.unsplash.com/photo-1582064087391-118a9cf59bb6" alt="Blue Sapphire">
                 <h2>Blue Sapphire</h2>
-                <p>$2000</p>
-                <a href="#" class="btn">View Details</a>
+                <p class="price">$2000</p>
+                <button class="btn add-to-cart" data-product="Blue Sapphire" data-price="2000">Add to Cart</button>
             </div>
             <!-- Add more products here -->
+            <div class="product-item">
+                <img src="https://images.unsplash.com/photo-1595360892265-fd9d2a4ec660" alt="Ruby">
+                <h2>Ruby</h2>
+                <p class="price">$1500</p>
+                <button class="btn add-to-cart" data-product="Ruby" data-price="1500">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://images.unsplash.com/photo-1504382102915-c2e2f6749c14" alt="Emerald">
+                <h2>Emerald</h2>
+                <p class="price">$1800</p>
+                <button class="btn add-to-cart" data-product="Emerald" data-price="1800">Add to Cart</button>
+            </div>
         </div>
     </section>
     <!--===Shop Data Section End===-->
+
+    <div id="cart" class="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+        <button id="checkout" class="btn">Checkout</button>
+    </div>
 
     <script>
         // Update price filter value
@@ -42,6 +63,26 @@
         const priceValue = document.getElementById('priceValue');
         priceRange.addEventListener('input', () => {
             priceValue.textContent = priceRange.value;
+        });
+
+        // Cart functionality
+        const cart = document.getElementById('cart');
+        const cartItems = document.getElementById('cart-items');
+        const cartTotal = document.getElementById('cart-total');
+        let total = 0;
+
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', () => {
+                const product = button.getAttribute('data-product');
+                const price = parseFloat(button.getAttribute('data-price'));
+
+                total += price;
+                cartTotal.textContent = total.toFixed(2);
+
+                const cartItem = document.createElement('li');
+                cartItem.textContent = `${product} - $${price.toFixed(2)}`;
+                cartItems.appendChild(cartItem);
+            });
         });
     </script>
 </body>

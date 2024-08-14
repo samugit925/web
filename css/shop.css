@@ -1,7 +1,6 @@
 /* Shop Data Section Styles */
 .shop-data {
     display: flex;
-    flex-wrap: wrap;
     padding: 20px;
     gap: 20px;
     background-color: #f4f4f4;
@@ -94,7 +93,7 @@
     color: #333;
 }
 
-.product-item p {
+.product-item .price {
     font-size: 1.4em;
     color: #ff9900;
     margin: 10px 0;
@@ -113,5 +112,55 @@
 }
 
 .product-item .btn:hover {
+    background-color: #e68a00;
+}
+
+.cart {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 300px;
+}
+
+.cart h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.cart li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart p {
+    font-size: 1.4em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.cart .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ff9900;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cart .btn:hover {
     background-color: #e68a00;
 }
